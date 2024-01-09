@@ -1,0 +1,18 @@
+ How to append multiple data beases or (excel tables):-
+ 
+ 1.excel option (in power bi)---file--open--file name-- transform the data--- that would appear in the new window like excel format
+ 
+ 2. if you want to build the dash board use append queries as new
+ i have already create the dashboard so i can use append queries
+ 
+ 3.select base table and child table --table to append---select child table append-- ok
+ check the tables are appended
+ 
+ 4.click on check and close to apply option append date will be displayed in graph format
+ 
+ 5.thum rule:
+				same column names in the two excel tables
+6.this append will perform union all operation  this display duplicates also
+if you want to remove duplicates
+
+ remove duplicates: after append select all the columns--right click--remove duplicates

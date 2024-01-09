@@ -1,0 +1,160 @@
+#----------POWER BI--------
+INTRODUCTION--
+1.BUSINESS INTELLIGENCE REPORTING TOOL
+2.to create visualization/reporting and dashboard
+3.provided by microsoft	
+
+ARCHITECTURE:
+power bi desktop---authering tool--used for creating for your reportings
+				---it is free
+				---able to connect to 80+ sources
+		sources:---it can be a database,excel or any kind of data sourecs like azure 
+		
+	ex: retail shop --- at a point of sales ---the data is in the data base and excel fiels he can analyze the data simlilarly by using reporting tools
+	
+Main feature of reporting tools:
+		integrate data from multiple data sources and integrate them 
+		
+-----INSTALLATION---
+google--power bi desktop ---dowloads power bi ---advance download options---check the system requirements---windows 7,windows8,windows8.1,windows 10 supported---download
+64-bit--downloads--power bi --double click it--next--right tick mark and next--next--it will displayed in desktop-next.
+open power bi
+
+
+	
+#-----CLASS2------
+create your first dashboard in munites:
+ get data ---more--file--excel--open required files--select file--load
+ data loaded--fields-- based on the fields choose one visualization--crop it--select item amount(select column name)--display the graph--select another column name  
+ 
+****you want to see the overall data you can choose----visualization---card---
+*visualization--barchart--select sale date and item amount--visualization-- select format--x axis--type--catagerios--       
+* how much amount--off line or online --select pychart--select columns order type and item amount--created first dash board.
+ 
+ 
+ 
+ #--------CLASS 3----
+  1.FILTERS :---filter by catagerios----formal catagerios---output will displayed in graphically
+  2.TABS :--- report tab,data tab and model tab
+			model tab:--you have a multiple tables--you create a relation ship with tables
+  3.TRANSFORM DATA :--click on transforming a data--transform data--select item name column --right click it--duplicate column---right click on duplicate column --splict columns--by delimeter--ok--rename the column name(same as folder rename)--close and apply--changes will displayed in graph--fields--brand column--output in graphically.  
+
+ 
+ #------CLASS 4-------DATA TYPES---
+ ------DATA TYPE---
+  INFORMATION(For understanding)			POWER BI DATA TYPE
+  1.Customer name, address,product name		text  
+  2.sale amount,quantity,age				whole number,decimal
+  3.sale date,birth date,time				date time,date, time
+  4.is valid, accepted/rejected				true/false
+  
+*the sigma symbol indicates that the column date is numeric
+report tab---select item amount column--summarization--we have to perfrom sum,average,minimum,maximum,count,count(distnict) operations 
+	--select numeric or (sigma indicated columns )--apply card-- o/p display the graphically
+	--select texted column name --o/p displayes in text fromat. 
+	--select decimal column you can't apply sum,average,minimum,maximum,count,count(distnict) operations
+	---if you want to change the property of decimal number--select line number column(this is decimal column)--o/p displayed in graph
+	---changing decimal to text---in column tools bar--select data types bar--text.
+	
+
+#-----------CLASS 5---------
+-----HOW TO DO BASIC FORMATTING---
+FORMATTING:--painting and beautifications is called FORMATTING.
+visualization--formatting--data label---change the text size,display options= none,(they do not display like 7k)to display in 7000 and font--
+			 --background colour---blue()--transperency--format painter(pasting a colur)--
+visualization--general-- x axis--increse text size--display unit=none			 
+visualization---change the data labels--increse text size--title text--change--alingements--center--by using format painting the same changes applies to the required graphes in a single tab.
+visualization--data labels--orientation--vertical--by using format painting the same changes applies to the required graphes in a single tab.
+visualization--change data colours--select required colour 
+ 
+visualization--effects:
+				colour--click on settings symbol--minimum--lowest value colour (blue)--highest value colour (red)--ok.
+				shadow property--on--and change data colours
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
