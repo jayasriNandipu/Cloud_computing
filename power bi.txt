@@ -71,6 +71,99 @@ visualization--effects:
 				colour--click on settings symbol--minimum--lowest value colour (blue)--highest value colour (red)--ok.
 				shadow property--on--and change data colours
  
+ #----CLASS 6----
+ --HOW TO CONNECT VARIOUS DATA SOURCES---
+ if you want to connect the different data sources like excel,customer.txt,websites,supplier databases. 
+ initially they do not have any relation with those things.
+ 
+ connecting to different data bases:
+		*connecting excel files:-
+ 1.connect to customer text file--get data--text csv--select file--open
+ (the text file is similar to the excel they do't have column names(column1,column2,--))
+ select columns --rename a column name (column1=customer name,column2=phone number) and close and apply.
+ 		* connecting to supplier databases:-
+  1.coonecting to database--get data--more--sql server database--connect--provide server_name--server--ok.
+  open selected table --load.
+  
+		* connecting to websites:-
+   1.copy and paste the data in google(if their is data or not)--f=get data--web--paste the url--ok--table2--load.
+
+
+#----CLASS 7--------
+   ----HOW TO SET INTERACTIONS BETWEEN VISUALS--
+
+  
+ #-------CLASS 8---
+ ----HOW TO TRANSFORM DATA TO WEEEK IN POWER BI--------
+   1.which week of the month is performing well?
+   2.which day of the week is performing well?
+   
+--dashboard--we have a columns --using this column we have to dericve-- scale date--transfrom data--(there is no week)
+--i want to create a duplicate column---right click on scale date column name and create duplicate--select a duplicate column
+--right click on duplicate column--transform--week--week of month option-- rename a column with week month--again
+select sscale date-- right click on it--duplicate--right click--transform--name ofday--rename with day of week --- click on close and apply.
+
+choose week of the month column--visualization--select quantity column.
+select bar graph from visualization----select columns--day of week and  item quantity.
+
+ 
+ #----CLASS 9---
+ ----HOW TO ORDER MONTH or DAY or WEEK---
+
+example in excel:--  week		day
+					monday		0
+					tuesda	   	1
+					wednesday	2 
+					thursday	3
+					friday		4
+					saturday	5
+					sunday		6
+		visually wenhave seen like week and internally it will tkes like day.
+			it is similar to the months also.
+1.go to transform data--transform data--one fro month order and another is the week order--
+2.we have a month name and week column -- create a oreder column.
+3.choose sale data-- create 2duplicate columns (one for month and another for week)--we can't derive the column name with texted type.
+4.that's why we have duplicating the columns of sale data.
+5.rename the duplicated column names with month order and day order.
+6.right click on monthorder column--transform--month--month.
+7.right click on  day order column--transform--day --day of week. 
+8. click on close and apply.
+
+
+1.fields--click on month name column--sort by -- month order. 
+2.fields--click on day of week--sort by column--day order.
+
+
+#--------CLASS 10--------
+----HOW TO JOIN TABLES/(MERGE TABLES)IN POWER BI--------
+ 
+1.excel--select 2 tables--transform.
+2.merge query as new(this will create a new table)--click on use first row as header column.
+3.merge query as new--select the common column name--first table supplier names column and second table company name column
+4.jpoin kind--inner join--ok.
+
+by click on output table--shop timings--by click on table option it will load second table information.
+---incomoplete---
+ 
+ 
+ #--------CLASS 11-----
+---------HOW TO USE GROUP BY-----
+ 1.supply wise total branches?
+ 
+ GROUP BY SINGLE COLUMN:-
+ --after performing join---by select required column(supplier names)---right click on it--group by--new column name no.of branches--operation--count of rows--ok.
+ 
+ GROUP BY WITH TWO COLUMNS:-
+ ----by select two columns-----right click on it--group by(supplier name,phone number)--new column--no of branches---count of rows--ok.
+ 
+
+ 
+ #------CLASS12----
+ ---HOW TO FIND AGE FROM BIRTH DATE---
+ 
+ ---select birthdate column--right click on it--duplicate column--get new column--copy column--add column--data--age.
+ ---select date column--duration--total years.
+ ---select total years column---transform--rounding--round down.
  
  
  
@@ -103,18 +196,7 @@ visualization--effects:
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  
  
